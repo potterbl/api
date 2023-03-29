@@ -1,0 +1,29 @@
+.header{
+    background-color: #5b5b5b;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    color: white
+}
+.header img{
+    height: 90%;
+    margin-left: 65px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+@media (max-width: 526px) {
+    .header h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 468px){
+    .header h1{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,31 @@
+.search_wrapper{
+    margin-top: 30px;
+}
+.default__query{
+    display: flex;
+}
+.more{
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+.additional {
+    height: 0px;
+    opacity: 0;
+    transition: all 0.3s ease, transform .6s ease-in-out;
+}
+.sort{
+    display: flex;
+    align-items: center;
+}
+.sort select{
+    margin-left: 20px;
+    border-radius: 0;
+    padding: 10px;
+}
+.per__page{
+    display: flex;
+}
+.per__page Input{
+    margin-left: 20px;
+}
